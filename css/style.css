@@ -213,6 +213,11 @@ span.gty {
     font-size: 11px;
     text-align: center;
 }
+.safe_r {
+    /* text-align: center; */
+    display: block;
+    margin: 5px 0 0 0;
+}
 .r_p {
     line-height: 1.4;
     font-size: 13px;
