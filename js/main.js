@@ -5,16 +5,10 @@ const symptoms = document.getElementById('symptoms');
 const fix = document.getElementById('fix');
 
 //modal pop up
-popUp.addEventListener('click', function() {
-    document.getElementById('modalPopUP').style.display="block";
-    document.getElementById('bodyblack').style.display="block";
-});
-
-var exitIntend = ()=> {
-    document.getElementById('modalPopUP').style.display="block";
-    document.getElementById('bodyblack').style.display="block";
-   
-};
+// popUp.addEventListener('click', function() {
+//     document.getElementById('modalPopUP').style.display="block";
+//     document.getElementById('bodyblack').style.display="block";
+// });
 
 //close the modal
 close.addEventListener('click', function() {
@@ -40,13 +34,8 @@ fix.addEventListener('click', function() {
     document.getElementById('fixInfo').style.display="block";
 });
 
-setTimeout(function(){
-    document.getElementById('modalPopUP').style.display="block";
-    document.getElementById('bodyblack').style.display="block";
-}, 2000);
+// setTimeout(function(){
+//     document.getElementById('modalPopUP').style.display="block";
+//     document.getElementById('bodyblack').style.display="block";
+// }, 2000);
 
-
-window.onbeforeunload = function(){
-    exitIntend();
-    return 'Take care now, bye-bye then.';
-  };
