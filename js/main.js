@@ -10,6 +10,12 @@ popUp.addEventListener('click', function() {
     document.getElementById('bodyblack').style.display="block";
 });
 
+var exitIntend = ()=> {
+    document.getElementById('modalPopUP').style.display="block";
+    document.getElementById('bodyblack').style.display="block";
+   
+};
+
 //close the modal
 close.addEventListener('click', function() {
   document.getElementById('modalPopUP').style.display="none";
@@ -38,3 +44,9 @@ setTimeout(function(){
     document.getElementById('modalPopUP').style.display="block";
     document.getElementById('bodyblack').style.display="block";
 }, 2000);
+
+
+window.onbeforeunload = function(){
+    exitIntend();
+    return 'Take care now, bye-bye then.';
+  };
