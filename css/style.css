@@ -68,7 +68,7 @@ span.sl {
     right: 0;
     z-index: 101;
     width: 524px;
-    height: 376px;
+    height: 418px;
     margin-top: 10%;
     background: #fff;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
@@ -120,6 +120,16 @@ span.sl {
 }
 .btnDonwload {
     padding: 0 0 0 31px;
+    display: block;
+    margin-top: -14px;
+}
+.a_bad {
+    padding: 15px 0;
+    display: block;
+    margin-left: 11px;
+    margin-top: 3px;
+    position: relative;
+    left: 6px;
 }
 .btndanger {
     color: #fff;
